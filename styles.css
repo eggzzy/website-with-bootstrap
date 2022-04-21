@@ -1,0 +1,204 @@
+/* body{
+ 
+    text-align: center;
+
+} */
+#title{
+    background-color:#F1DDBF;
+}
+.container1{
+    padding: 4% 10% 15% ;
+  
+}
+h1, h4, p{
+    font-family: lora-bold;
+
+}
+
+h1, h3, h4{
+    color: #1d301d;  
+
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+h3{
+    font-family: playfair display   ;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+p{
+    color: #1eb324;
+    line-height: 1.2;
+    font-size: 1.2rem;
+ }
+
+
+ .logo{
+    transform: rotate(61deg);
+    position: relative;
+    left: 40%;
+    bottom: 15%;
+    border-top-left-radius: 80%;  
+}
+
+
+.navbar{
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color:#1eb324;
+    font-size: 2rem;
+    font-family: playfair display;
+}
+
+.toggle-btn{
+   background-color: #67a767;
+}
+
+.navbar-toggler-icon{
+   text-decoration: #4adf4a;
+}
+
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-link{
+    font-family: playfair display;
+    font-size: 1.2rem;
+    color: #1eb324;
+}
+
+.prompt-btns{
+    margin: 5% 5% 5% 0;
+}
+
+/* Services container */
+
+#Services{
+    background-color:  #f7f8f4;
+    padding: 9% 10%;
+    position: relative;
+    
+}
+
+.services-divs{
+    text-align: center;
+    padding: 5%;
+   
+}
+
+.middlecontainer-imgs{
+  margin-bottom: 20px;
+  border-radius: 50%;
+    
+}
+
+.middlecontainer-imgs:hover{
+    color: #1d301d;
+}
+
+/* features */
+
+#features{
+    padding: 5% 10%;
+    background-color: #F1DDBF;
+    text-align: center;
+    color: #1d301d;
+}
+
+.feature-img{
+    border-radius: 5%;
+    width: 60%;
+    margin: 40px 20px;
+
+}
+
+/* news section */
+
+#news{
+    background-color: #f7f8f4;
+    padding-top: 40px;
+    text-align: left;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/* contacts section */
+
+#Contacts{
+    text-align: center;
+    background-color: #F1DDBF;
+    padding: 3% 7% 1%;
+}
+
+.socials-imgs{
+    margin: 1% 0.5%;
+}
+
+.contact-btns{
+    margin: 1% 0.5% 1.5%;
+
+}
+
+
+
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+    .logo{
+        width: 80%;
+        /* position: static; */
+        position: relative;
+        left: 50px;
+    }
+
+
+    
+}
+
+/* @media (max-width: 1552px) {
+
+    
+} */
